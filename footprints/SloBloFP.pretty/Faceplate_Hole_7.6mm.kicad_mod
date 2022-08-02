@@ -1,0 +1,13 @@
+(module Faceplate_Hole_7.6mm locked (layer F.Cu) (tedit 5DBC01FC)
+  (fp_text reference REF** (at 0.41 4.84) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Faceplate_Hole_7.6mm (at 0.27 6.16) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.508 0) (end 0.508 0) (layer F.Fab) (width 0.15))
+  (fp_line (start 0 -0.508) (end 0 0.508) (layer F.Fab) (width 0.15))
+  (fp_line (start -1 0) (end 1 0) (layer F.SilkS) (width 0.12))
+  (fp_line (start 0 -1) (end 0 1) (layer F.SilkS) (width 0.12))
+  (pad 1 thru_hole circle (at 0 0) (size 7.6 7.6) (drill 7.6) (layers *.Cu *.Mask))
+)
