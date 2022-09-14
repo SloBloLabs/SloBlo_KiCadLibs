@@ -4,13 +4,17 @@
   (descr "SW Toggle")
   (tags "SW Toggle")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0.124031 -8.249895) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 5.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 961babc3-eecf-4a23-a09f-8a9441895dbc)
   )
   (fp_text value "SW_Toggle MS 500C" (at 0.1 -6.2) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9693a32b-4e13-4a28-bcf4-261901e93cc0)
+  )
+  (fp_text user "REF**" (at 0 3.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7ba5868f-d0fd-4216-8c97-bac29aa8ef23)
   )
   (fp_text user "https://cdn-reichelt.de/documents/datenblatt/C200/MS-500X-X-X.pdf" (at 0 0) (layer "User.1") hide
     (effects (font (size 1 1) (thickness 0.15)))
