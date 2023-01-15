@@ -1,0 +1,56 @@
+(footprint "LSM-50M NO-B" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b5e9d271-6d11-4be2-9a80-0ed1da90e727)
+  )
+  (fp_text value "LSM-50M NO-B" (at 0 1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a9ab4736-aa8c-4f6f-b95a-4f65d5f5747b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cbe946db-07c9-46bb-8daa-4794e81376c0)
+  )
+  (fp_line (start -1.7 -26.9) (end -1.7 -31.3) (layer "F.SilkS") (width 0.12) (tstamp 16c50ed6-3297-4d0c-b6d6-3731e68af91e))
+  (fp_line (start 16.7 -18.6) (end 2.5 -32.8) (layer "F.SilkS") (width 0.12) (tstamp 27df1fde-b585-4534-b968-5569b1139099))
+  (fp_line (start -16.7 -18.6) (end -2.5 -32.8) (layer "F.SilkS") (width 0.12) (tstamp 45c793c9-2060-4484-b2b1-c1578a6c6012))
+  (fp_line (start -1.7 31.3) (end -1.7 26.9) (layer "F.SilkS") (width 0.12) (tstamp acbf151a-dd27-4f64-b971-c39d9802917d))
+  (fp_line (start 1.7 -31.3) (end 1.7 -26.9) (layer "F.SilkS") (width 0.12) (tstamp b40fd37d-3f38-4bf6-af44-75b98226f2ff))
+  (fp_line (start -1.7 26.9) (end 1.7 26.9) (layer "F.SilkS") (width 0.12) (tstamp b4689782-5bee-4f6c-a985-d4e2e231eeb1))
+  (fp_line (start 1.7 26.9) (end 1.7 31.3) (layer "F.SilkS") (width 0.12) (tstamp bc55949e-bcfd-4ae2-8159-e849087bcecb))
+  (fp_line (start -8.2 26.9) (end 8.4 26.9) (layer "F.SilkS") (width 0.12) (tstamp bf6a2dcd-08e2-4e32-b31a-2c3aa57c0f7b))
+  (fp_line (start -8.4 -26.9) (end 8.2 -26.9) (layer "F.SilkS") (width 0.12) (tstamp d1ab2ec6-df8f-45fc-96e3-b4bc92aa2274))
+  (fp_line (start 1.7 -26.9) (end -1.7 -26.9) (layer "F.SilkS") (width 0.12) (tstamp d6715956-997c-47b2-bc4d-9fdbfcff28c7))
+  (fp_line (start -16.7 18.6) (end -2.5 32.8) (layer "F.SilkS") (width 0.12) (tstamp d857c436-0c60-454c-90b8-2a214ce36cb6))
+  (fp_line (start 16.7 18.6) (end 2.5 32.8) (layer "F.SilkS") (width 0.12) (tstamp d9bce46f-0c4c-4946-a5c7-057b7b1dcdf5))
+  (fp_arc (start 2.5 32.8) (mid 0.036799 33.929962) (end -2.450772 32.85471) (layer "F.SilkS") (width 0.12) (tstamp 2816a9ed-52d8-4396-b473-8d5d5c257d96))
+  (fp_arc (start 1.7 31.3) (mid 0 33) (end -1.7 31.3) (layer "F.SilkS") (width 0.12) (tstamp 4302f3cd-c96d-4cfc-a851-2888e159f4a3))
+  (fp_arc (start -2.5 -32.8) (mid -0.036799 -33.929962) (end 2.450772 -32.85471) (layer "F.SilkS") (width 0.12) (tstamp 70950839-4e32-4074-b82d-c01a846e6f03))
+  (fp_arc (start -1.7 -31.3) (mid 0 -33) (end 1.7 -31.3) (layer "F.SilkS") (width 0.12) (tstamp b3a6453f-0be6-4a82-8913-6d248d3a2a57))
+  (fp_circle (center 0 0) (end 7 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 5603e567-85e0-41ba-bd89-9b5ce47bbc46))
+  (fp_circle (center 0 0) (end 23 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp ce998163-a709-4123-95d4-370b3b528b18))
+  (fp_circle (center 0 0) (end 25 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp d1d04a16-aff1-4bc9-bae4-4a0d6a6df897))
+  (pad "1" thru_hole circle (at 0 31.3) (size 3.6 3.6) (drill 3.2) (layers *.Cu *.Mask) (tstamp 439a91a5-fc14-4c98-bb5f-0760e259a6a7))
+  (pad "1" connect circle (at 0 31.3) (size 6.4 6.4) (layers "F.Cu" "F.Mask") (tstamp 5e1564b9-449e-40c7-b16d-352a82602140))
+  (pad "2" thru_hole circle (at 0 -31.3) (size 3.6 3.6) (drill 3.2) (layers *.Cu *.Mask) (tstamp 84e8e487-15b4-4a2f-9d2f-9b745c10d7d1))
+  (pad "2" connect circle (at 0 -31.3) (size 6.4 6.4) (layers "F.Cu" "F.Mask") (tstamp c1642538-fe2c-4bcf-a0dd-318a4dd27834))
+  (group "" (id 953ec3e5-8457-467d-9910-b8365517bdad)
+    (members
+      16c50ed6-3297-4d0c-b6d6-3731e68af91e
+      b3a6453f-0be6-4a82-8913-6d248d3a2a57
+      b40fd37d-3f38-4bf6-af44-75b98226f2ff
+      d6715956-997c-47b2-bc4d-9fdbfcff28c7
+    )
+  )
+  (group "" (id e31b95e7-1219-436c-971d-779fdcb7368a)
+    (members
+      4302f3cd-c96d-4cfc-a851-2888e159f4a3
+      acbf151a-dd27-4f64-b971-c39d9802917d
+      b4689782-5bee-4f6c-a985-d4e2e231eeb1
+      bc55949e-bcfd-4ae2-8159-e849087bcecb
+    )
+  )
+)
